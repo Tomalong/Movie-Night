@@ -1,0 +1,5 @@
+The idea is to store a database of movies that I've been meaning to watch and/or show Stacey. 
+Will have a login screen, a home screen that let's you call a movie at random (can restrict by genre and IMDb rating), a movie entry screen that lets you search for movies and then enter them into the database, a screen that let's you see movies in your que, a screen that shows movies that you've already watched. 
+Use OMDb API to get movie info in JSON format. www.omdbapi.com
+
+Tabs are: Search & Enter; Unwatched; Watched

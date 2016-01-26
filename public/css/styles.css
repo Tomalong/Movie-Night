@@ -1,0 +1,147 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.test
+{
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-size: 80px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#middle td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+#middle .nav
+{
+    /*center navigation pills */
+    display: inline-block;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+.result {
+	vertical-align: top;
+	padding: 20px;
+	text-align: left;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+button{
+	cursor: pointer;
+}
+
+#choice{
+	position: fixed;
+	font-size: 20px;	
+	left: 21%;
+	top: 20%;	
+	height: 500px;
+	width: 1016px;
+	border: 3px solid #73AD21;
+	border-radius: 25px;
+	background: white;
+	display: none;
+	z-index: 1000;
+}
+
+/* attributes for the confirm window */
+#confirm{
+	position: fixed;
+	font-size: 40px;
+	left: 38%;
+	top: 40%;
+	background: #73AD21;
+	display: none;
+	border-radius: 25px;
+	height: 50px;
+	width: 350px;
+	text-align: center;
+	vertical-align: center;
+	
+}
+
+table{
+	position: relative;
+	left: 20px;
+}
+
+#exit{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
+.poster{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+.info{
+	position: absolute;
+	left: 325px;
+}
+
+#select{
+	position: absolute;
+	bottom: 15px;
+	left:40%;
+	width: 20em;
+	height:2em;
+}
+
+#list{
+    position: absolute;
+    left: 10px;
+}
+
+.libraryPoster{
+    zoom: 20%;
+}
+
+.window{
+    text-align: left;
+}
+
+tr{
+    cursor: pointer;
+}
